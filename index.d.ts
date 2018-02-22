@@ -3,9 +3,7 @@
 // Definitions by: Toran Billups <https://github.com/toranb>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-export = SeamlessImmutable;
-
-declare namespace SeamlessImmutable {
+declare module 'seamless-immutable' {
   interface MergeConfig {
     deep?: boolean;
     merger?: Function;
